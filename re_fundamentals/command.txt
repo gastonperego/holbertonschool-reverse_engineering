@@ -1,0 +1,1 @@
+readelf -S task1 | awk '/.hbtn-custom/{getline; print $1}'
